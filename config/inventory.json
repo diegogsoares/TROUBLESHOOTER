@@ -1,0 +1,32 @@
+{
+	"Sites": [
+		{
+		"site_name": "New York City",
+		"site_code": "NYC",
+		"site_ip_range": "10.10.0.0/16",
+		"switch_username": "admin",
+		"switch_password": "cisco123",		
+		"switches": [
+			{ "switch_ip": "10.10.200.1", "switch_name": "NYC-Core01", "switch_group": "core" },
+			{ "switch_ip": "10.10.200.2", "switch_name": "NYC-Core01", "switch_group": "core" },
+			{ "switch_ip": "10.10.3.3", "switch_name": "NYC-Access01", "switch_group": "access" },
+			{ "switch_ip": "10.10.3.4", "switch_name": "NYC-Access02", "switch_group": "access" },
+			{ "switch_ip": "10.10.3.5", "switch_name": "NYC-Access03", "switch_group": "access" }
+		]
+		},
+		{
+			"site_name": "San Francisco",
+			"site_code": "SFO",
+			"site_ip_range": "10.11.0.0/16",
+			"switch_username": "admin",
+			"switch_password": "cisco123",		
+			"switches": [
+				{ "switch_ip": "10.11.200.1", "switch_name": "SFO-Core01", "switch_group": "core" },
+				{ "switch_ip": "10.11.200.2", "switch_name": "SFO-Core01", "switch_group": "core" },
+				{ "switch_ip": "10.11.3.3", "switch_name": "SFO-Access01", "switch_group": "access" },
+				{ "switch_ip": "10.11.3.4", "switch_name": "SFO-Access02", "switch_group": "access" },
+				{ "switch_ip": "10.11.3.5", "switch_name": "SFO-Access03", "switch_group": "access" }
+			]
+		}
+	]
+}

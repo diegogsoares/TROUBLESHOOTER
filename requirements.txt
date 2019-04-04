@@ -1,0 +1,9 @@
+requests==2.21.0
+napalm==2.4.0
+ansible==2.7.8
+validators
+argparse
+netaddr
+time
+datetime
+collections
